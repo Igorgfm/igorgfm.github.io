@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #7D1424;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.texto-sobre {
+    flex: 1;
+    padding: 20px;
+}
+
+.imagem-sobre {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagem-sobre img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lojaimg {
+    display: flex;
+    width: 579px;
+    height: 343px;
+    border-radius: 32px 0;
+    border-bottom: 4px solid #494D4B;
+    border-right: 4px solid #7D1424;
+    border-top: 4px solid #494D4B;
+    border-left: 4px solid #7D1424;
+}
+
+.text {
+
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.centro {
+    background-color: #fff;
+
+}
+
+.inicio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+    flex-direction: row-reverse;
+}
+
+.inicio p {
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+footer {
+
+    background-color: #494D4B;
+    margin-top: 70px;
+    height: 150px;
+    width: 100%;
+
+}
